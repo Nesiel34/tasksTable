@@ -1,0 +1,33 @@
+[{
+  "DepartmentID": 1,
+  "DepartmentName": "Research and Development",
+  "ParentID": 0
+},
+{
+  "DepartmentID": 2,
+  "DepartmentName": "Business Development",
+  "ParentID": 1
+},
+{
+  "DepartmentID": 3,
+  "DepartmentName": "Human Resources",
+  "ParentID": 0
+}, {
+  "DepartmentID": 4,
+  "DepartmentName": "Sales",
+  "ParentID": 0
+}, {
+  "DepartmentID": 5,
+  "DepartmentName": "insurance",
+  "ParentID": 4
+},
+{
+  "DepartmentID": 6,
+  "DepartmentName": "car",
+  "ParentID": 5
+},
+{
+  "DepartmentID": 7,
+  "DepartmentName": "life",
+  "ParentID": 5
+}]

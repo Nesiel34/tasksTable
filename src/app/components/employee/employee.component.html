@@ -1,0 +1,16 @@
+<form  [formGroup]="form">
+  <mat-form-field>
+    <mat-select placeholder="select Employee" formControlName="employeeSelected">
+      <mat-select-trigger *ngIf="getSelected() as Selected">
+        <mat-icon matSuffix>
+          <img class="avatr" src="{{Selected.EmployeePicture}}"/>
+        </mat-icon>&nbsp;{{Selected.EmployeeName}}
+      </mat-select-trigger>
+      <mat-option *ngFor="let e of employee" [value]="e">
+        <mat-icon>
+          <img class="avatr" src="{{e.EmployeePicture}}"/>
+        </mat-icon>&nbsp;{{e.EmployeeName}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</form>
